@@ -2,7 +2,7 @@
 /* ===== Definições do Body ============== */
 
 body {
-  background: #eeeeee;
+  background: #ffffff;
 
 }
 
@@ -44,7 +44,7 @@ Form {
   margin-right: auto;  
   font-family: Montserrat,sans-serif;
   font-size: 15px;
-  background-color: #f7f5e6;
+  background-color: #ffffff;
   max-width: 358px;
   height: auto;
   border: 1px solid;

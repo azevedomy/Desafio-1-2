@@ -1,0 +1,16 @@
+footer {
+ 
+  background-color:#464646;
+  padding: 20px;  
+  text-align: center;
+  font-weight: 800;
+ 
+}
+
+.footer__logo {
+  font-family: Montserrat;
+  border: 1px solid #7b9560;
+  padding: 5px; 
+  color: #7b9560;
+
+}

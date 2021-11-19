@@ -1,0 +1,102 @@
+/* ===== Definições do Body ============== */
+
+body {
+  background: #f7f5e6;
+}
+
+/* ===== Definições MAIN ============== */
+
+main {
+  margin: 40px;
+}
+
+.textos {
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: haleway,sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 75px;
+}
+/* ===== SESSÃO DOCUMENTARIO ============== */
+
+.sessao {
+  display: inline;
+}
+.sessao__titulo {
+  font-family: haleway,sans-serif;
+  margin-bottom: 1em;
+  text-align: center;
+  margin: 30px;
+}
+
+.sessao__texto {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.sessao__video {
+  margin: 0px -20px 30px -20px;
+  padding: 20px;
+  position: relative;
+  padding-bottom: 56.5%;
+}
+
+.sessao__video > iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+.sessao__conteudo {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 966px) {
+  .sessao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+  }
+
+  .sessao__titulo {
+    text-align: left;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .sessao__texto {
+    text-align: left;
+    width: 500px;
+  }
+
+  .sessao__video {
+    margin-left: 50px;
+    width: 100%;
+  }
+
+  .sessao__video > iframe {
+    width: 90%;
+    height: 90%;
+  }
+
+  .sessao__conteudo--video {
+    border: 1px solid #ccc;
+    padding: 0rem;
+    width: 500px;
+    height: 333px;
+  }
+
+  .sessao__conteudo {
+    text-align: center;
+    width: 500px;
+    height: auto;
+  }
+}

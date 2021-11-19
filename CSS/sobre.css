@@ -1,0 +1,121 @@
+
+/* ===== Menu ============== */
+body {
+background: #f7f5e6;
+}
+
+
+/* ===== CONTEUDO MAIN ============== */
+.main__textos {
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  margin: 40px; 
+}
+
+
+/* ===== SESSÕES ============== */
+
+.sessaoPrincipal {
+  display: inline;
+  justify-content:space-around;
+  text-align: center;
+  align-items: center;  
+}
+
+h1 {
+  font-family: haleway,sans-serif;
+  font-size: 50px;
+  margin-bottom: 75px;
+}
+
+/* ---- SESSÃO MUSICA ---- */
+
+.sessao__musica {
+  display: inline;
+  text-align:center; 
+  
+}
+.musica__letra {
+  margin-bottom: 2rem;
+  font-size: 16px;
+}
+.musica__titulo {  
+  font-size: 20px;
+  color: #000000bc;
+}
+.musica__cantor {  
+  
+  color: rgb(255, 87, 87);
+  margin-bottom: 2.5em;
+  font-size: 11px;
+  font-weight: bold;
+  
+}
+
+/* ---- SESSÃO 1 ---- */
+
+.sessao {
+  display: inline;
+
+}
+.sessao__titulo {
+  font-family: haleway,sans-serif;
+  font-size: 30px;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.sessao__texto {
+  text-align: left;
+  margin-bottom: 30px;
+  
+}
+
+
+.sessao__img {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;     
+  /* dica do código para deixar imagem em preto e branco: 
+  https://www.origamid.com/codex/imagem-em-preto-e-branco-com-css/ */  
+    
+}
+
+@media screen and (min-width: 966px) {
+
+  
+  .sessao {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    align-items: center;
+    gap: 3rem;
+    
+    
+  }
+
+  .sessao__titulo {
+    margin-top: 3rem;
+    font-size: 40px;
+  }
+
+  .sessao__p {
+    width: 500px;
+    
+  }
+
+  .sessao__img {
+    width: 500px;
+    height: 333px;
+  }
+
+  .sessao--invertida {
+    flex-direction: row-reverse;
+  }
+
+
+}
+

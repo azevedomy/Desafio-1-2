@@ -1,0 +1,93 @@
+
+/* ===== Body ============== */
+body { 
+  background-image: 
+  linear-gradient( transparent, rgb(0, 0, 0)), 
+  linear-gradient(to bottom right, rgba(11, 0, 161, 0.397), rgba(255, 192, 203, 0.438)),
+  url("/IMG/tambordecrioula-11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  height: calc(100vh - 5rem);
+}
+
+/* ===== Texto banner ============== */
+.tambor {  
+  margin-top: 10%;
+  
+}
+
+.tambor__titulo {
+  font-family: Raleway;
+  text-transform: lowercase; 
+  font-size: 100px;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.tambor__texto {
+  font-family: Raleway;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin-bottom: 2.5rem;
+   
+}
+
+
+/* ===== Botão banner ============== */
+
+.botao__fotografa {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: 250px;
+  background: transparent;
+  padding: 30px 10px; 
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  border: 0.5px solid #ffffff;  
+
+}
+
+.botao__fotografa:hover {
+  background: #46464649; 
+}
+
+
+
+@media screen and (min-width: 966px) {
+  
+  
+  .tambor__titulo{
+    font-size: 150px;
+    text-align: left;
+  }
+  .tambor__conteudo {
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;  
+  }
+
+  .tambor__texto {
+   text-align:left;
+  }
+
+  .botao__fotografa {
+    margin-left: 20rem;
+  }
+    
+  
+}  
+

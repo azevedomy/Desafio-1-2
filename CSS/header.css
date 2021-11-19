@@ -1,0 +1,140 @@
+/* ===== Denifições Header ============== */
+
+.header {
+  width: 100%;
+  border-bottom: 1px solid  #7b9560;    
+}
+
+.header--branco {
+  border-bottom: 1px solid  #ccc;
+}
+
+li {
+  font-family: haleway, sans-serif;
+}
+
+/* ===== Denifições Navegação ============== */
+.container--header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  gap: 1rem;
+}
+
+
+
+.logo--verde a{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: Raleway, sans-serif;
+  color: #7b9560;  
+  padding: 5px;
+  border: 1px solid #7b9560;
+}
+
+.logo--branca a {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: Raleway, sans-serif;
+  color: #ffffff;
+  padding: 5px;
+  border: 1px solid #ccc;
+ 
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;  
+  gap: 3rem;  
+}
+
+.menu ul li a {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+  transition: all 0.3s ease-in-out; 
+  font-size: 15px;
+}
+
+
+.menu--branco ul li a {
+  color: #ffffff;
+}
+
+.menu ul li a.menu__link--inicio:hover,
+.menu ul li a.menu__link--inicio:focus {
+  color: #ffffff;
+
+}
+
+.menu ul li a:hover,
+.menu ul li a:focus {
+  color: #7b9560;
+
+}
+
+
+.menu__item {
+  transition: 0.4s ease-in-out;
+}
+
+.menu__link {
+  color: #7b9560;
+  position: relative;
+  transition: color 0.4s;
+}
+
+.menu__link:hover,
+nav ul li a.active {
+  color: #7b9560;
+}
+
+a.menu__link--inicio:hover,
+nav ul li a.menu__link--inicio.active {
+  color: #ffffff;
+}
+
+a.menu__link--inicio::after {
+  background: #ffffff;
+}
+
+.menu__link::after {
+  content: '';
+  width: 0%;
+  height: 1px;
+  background: #000000;
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+  transition: width 0.4s;
+}
+
+
+
+.menu__link:hover::after,
+nav ul li a.active::after {
+  width: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .container--header {
+    flex-direction: row;    
+    justify-content: space-between;  
+  }
+  
+  .menu ul {
+    justify-content: right;
+    gap: 3rem;
+}
+
+}

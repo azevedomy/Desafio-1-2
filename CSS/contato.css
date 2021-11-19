@@ -1,0 +1,135 @@
+
+/* ===== Definições do Body ============== */
+
+body {
+background: #f7f5e6;
+
+}
+
+
+/* ===== PRINCIPAL ============== */
+
+main {
+  margin: 40px ;
+}
+/* ===== CONTEUDO ============== */
+
+.sessao {
+  align-items: center;
+  padding-top: 30px ;
+}
+
+.sessao__titulo {
+  font-family: haleway, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.sessao__texto {
+  font-family: haleway, sans-serif;
+  text-align: left;
+  margin-bottom: 30px;
+}
+/* ===== Formulario ============== */
+
+h2 {
+  margin: 15px;
+  text-align: center;
+}
+
+Form { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  font-family: Montserrat,sans-serif;
+  font-size: 15px;
+  background-color: #f7f5e6;
+  max-width: 358px;
+  height: auto;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px; 
+  
+}
+
+input, textarea {
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  color: black;
+  margin: 1em auto;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+  border-color: #000000;
+  background-color: #7b95606e;
+  color: rgb(112, 112, 112);
+  font-weight: bold;
+}
+
+.enviar {
+  background-color: #c8c8c8;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid;
+  color: black;
+  text-align: center;
+}
+
+textarea {  
+  height: 120px;  
+}
+
+form label {
+  margin-left: auto;
+  color: black;
+  font-weight: bold;
+}
+/*----ESTILO PLACEHOLDER----*/
+::-webkit-input-placeholder {
+  font-family: haleway, sans-serif;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  font-family: haleway, sans-serif;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  font-family: haleway, sans-serif;
+}
+
+:-ms-input-placeholder {  
+  font-family: haleway, sans-serif;  
+}
+
+@media screen and (min-width: 966px) {
+  main {
+    height: calc(100vh - 5rem);
+  }
+  
+  .sessao {
+    display:flex;
+    justify-content: space-around;
+  }
+
+  .sessao__titulo {
+    text-align: left;
+  }
+
+  .sessao__texto {
+    width: 500px;
+  }
+ 
+}
+
+
+
+
+
+   
